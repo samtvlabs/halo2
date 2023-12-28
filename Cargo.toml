@@ -4,3 +4,6 @@ members = [
     "halo2_gadgets",
     "halo2_proofs",
 ]
+
+[patch."https://github.com/ingonyama-zk/icicle.git"]
+icicle = { git = "https://github.com/samtvlabs/icicle.git", tag = "v0.1.0", optional = true }
