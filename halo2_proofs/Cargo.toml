@@ -108,6 +108,3 @@ bench = false
 [[example]]
 name = "circuit-layout"
 required-features = ["test-dev-graph"]
-
-[patch."https://github.com/ingonyama-zk/icicle.git"]
-icicle = { version = "0.1.0", optional = true }
